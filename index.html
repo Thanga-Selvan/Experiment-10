@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="manifest" href="/manifest.json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#317EFB">
+    <link rel="apple-touch-icon" href="512.png">
+    <title>PWA experiment</title>
+  </head>
+  <style>
+    body {
+      padding: 12%;
+      background-position: fixed;
+      background-size:cover ;
+    }
+  </style>
+<body>
+<center>
+<div id="demo">
+<h1>Who is MSD?</h1>
+<button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.send();
+}
+</script>
+<script src="/app.js"></script>
+</center>
+</body>
+</html>

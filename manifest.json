@@ -1,0 +1,23 @@
+{
+    "name":"My app",
+    "short_name":"myapp",
+    "start_url": "/index.html",
+    "display":"standalone",
+    "background_color":"#FFE902",
+    "theme_color":"#FFE902",
+    "orientation":"portrait-primary",
+    "icons":[
+        {
+            "src":"/144.png",
+            "type":"image/png",
+            "sizes":"144x144",
+            "purpose":"any"
+        },
+        {
+            "src":"/512.png",
+            "type":"image/png",
+            "sizes":"512x512",
+            "purpose":"maskable"
+        }
+    ]
+}

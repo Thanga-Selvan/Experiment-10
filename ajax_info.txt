@@ -1,0 +1,5 @@
+<img src ="msd.png" alt="img">
+<h1>MS Dhoni</h1>
+<p>Mahendra Singh Dhoni, born 7 July 1981, commonly known as MS Dhoni, is a former Indian cricketer and captain of the Indian national team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014.</p>
+<p>He is also the current captain of Chennai Super Kings in the Indian Premier League.</p>
+<p>Under his captaincy, India won the 2007 ICC World Twenty20, the 2011 Cricket World Cup, and the 2013 ICC Champions Trophy, the most by any captain.</p> 
